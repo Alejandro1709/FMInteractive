@@ -1,0 +1,82 @@
+#card,
+#thankyou {
+  font-size: 1.2rem;
+  background-color: var(--dark-blue);
+  border-radius: 10px;
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+#thankyou {
+  text-align: center;
+}
+
+#thankyou img {
+  margin-bottom: 1rem;
+}
+
+#thankyou #result {
+  display: inline-block;
+  padding: 0.5rem;
+  border-radius: 10px;
+  color: var(--orange);
+  background-color: var(--very-dark-blue);
+}
+
+.title {
+  margin: 1.5rem 0;
+}
+
+.body {
+  color: var(--medium-grey);
+}
+.wrapper {
+  padding: 1.5rem;
+}
+
+#thankyou .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#star {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--very-dark-blue);
+  border-radius: 50%;
+  color: var(--orange);
+}
+
+#heading {
+  margin-top: 2rem;
+}
+
+#paragraph {
+  margin: 1rem 0;
+  width: 100%;
+  max-width: 70%;
+  color: var(--medium-grey);
+}
+
+button {
+  padding: 1rem;
+  width: 100%;
+  color: white;
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 1rem 0;
+  border-radius: 40px;
+  border: none;
+  background-color: var(--orange);
+  cursor: pointer;
+}
